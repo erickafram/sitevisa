@@ -45,7 +45,12 @@ $result = $mysqli->query($query);
                             <?php echo htmlspecialchars($row['numero_processo']); ?>
                         </a>
                     </td>
-                    <td><?php echo htmlspecialchars($row['data_aprovacao']); ?></td>
+                    <td>
+                        <?php
+                        // Formata a data para d/m/Y
+                        echo date('d/m/Y', strtotime($row['data_aprovacao']));
+                        ?>
+                    </td>
                 </tr>
             <?php endwhile; ?>
             </tbody>
