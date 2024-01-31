@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/PHPMailer/src" isTestSource="false" packagePrefix="PHPMailer\PHPMailer\" />
+      <sourceFolder url="file://$MODULE_DIR$/PHPMailer/test" isTestSource="true" packagePrefix="PHPMailer\Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/PHPMailer/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/fpdi/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/fpdi/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/phpunit/phpunit-mock-objects" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/setasign/fpdf" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/setasign/tfpdf" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/squizlabs/php_codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/tecnickcom/tcpdf" />
+      <excludeFolder url="file://$MODULE_DIR$/fpdi/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
