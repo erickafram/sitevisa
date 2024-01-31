@@ -1,7 +1,7 @@
 <?php
 include('../db_conection.php');
 
-// Query para buscar os projetos arquitetônicos
+// Query para buscar os projetos arquitetônicos -
 $query = "SELECT * FROM projeto_arquitetonico";
 $result = $mysqli->query($query);
 ?>
