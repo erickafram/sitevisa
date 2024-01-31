@@ -32,11 +32,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Prepara o texto, convertendo para ISO-8859-1
         $texto = utf8_decode("Status: $status\nNúmero do Parecer: $numeroParecer\nNúmero do Processo: $numeroProcesso\nData da Aprovação: $dataFormatada");
-        $pdf->SetFont('Arial', '', 12);
+        $pdf->SetFont('Arial', '', 10);
         $pdf->SetTextColor(0, 0, 0);
 
         // Posiciona o texto no canto direito da página
-        $x = 1080;
+        $x = 1100;
         $y = 550;
         $pdf->SetXY($x, $y);
         $pdf->MultiCell(0, 10, $texto);
